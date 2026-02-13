@@ -72,57 +72,6 @@ Metrics:
 
 ---
 
-## Project Structure
-
-rag_capstone/
-│
-├── app/
-│   ├── ingestion/
-│   │   ├── loader.py
-│   │   ├── chunker.py
-│   │   └── embedder.py
-│   │
-│   ├── retrieval/
-│   │   ├── retriever.py
-│   │   ├── reranker.py
-│   │   └── retrieval_pipeline.py
-│   │
-│   ├── generation/
-│   │   ├── ollama_llm.py
-│   │   ├── prompt_builder.py
-│   │   └── generator.py
-│   │
-│   ├── confidence/
-│   │   └── scorer.py
-│   │
-│   ├── evaluation/
-│   │   ├── evaluator.py
-│   │   └── run_evaluation.py
-│   │
-│   ├── logging_db/
-│   │   ├── db.py
-│   │   ├── logger.py
-│   │   └── schema.sql
-│   │
-│   ├── config.py
-│   └── __init__.py
-│
-├── ui/
-│   └── gradio_app.py
-│
-├── data/
-    └── raw_data/
-│   └── evaluation_set.json
-│
-├── chroma_store/         (ignored in git)
-├── main.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── .env                  (ignored in git)
-
----
-
 ## Installation
 
 ### 1️. Clone Repository
