@@ -27,6 +27,34 @@ User → Gradio UI
 → MySQL Logging  
 
 ---
+## Project Structure
+
+```
+rag_capstone/
+├── app/
+│   ├── ingestion/
+│   ├── retrieval/
+│   ├── generation/
+│   ├── confidence/
+│   ├── evaluation/
+│   ├── logging_db/
+│   ├── cli_testing.py
+│   ├── config.py
+│   └── __init__.py
+│
+├── ui/
+│   └── gradio_app.py
+│
+├── data/
+│   └── evaluation_set.json
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
 
 ## Features
 
