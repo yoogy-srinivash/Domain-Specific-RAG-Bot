@@ -25,3 +25,5 @@ Thumbs.db
 
 .cache/
 .huggingface/
+
+raw_pdfs/
