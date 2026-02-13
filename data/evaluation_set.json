@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What is Git?",
+    "type": "in_domain"
+  },
+  {
+    "question": "What is GitHub?",
+    "type": "in_domain"
+  },
+  {
+    "question": "Who won the FIFA World Cup 2022?",
+    "type": "out_of_domain"
+  },
+  {
+    "question": "What is quantum entanglement?",
+    "type": "out_of_domain"
+  }
+]
